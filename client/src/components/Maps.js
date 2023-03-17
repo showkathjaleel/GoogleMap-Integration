@@ -9,9 +9,7 @@ const icon=L.icon({
     iconUrl:"./placeholder.png",
     iconSize:[38,38]
 })
-// const GEOLOCATION_API='30be0c8cc00f46c1b6a80028611ecc8f'
-// const url = "https://api.opencagedata.com/geocode/v1/json?q={city}&key={GEOLOCATION_API}"
-// https://api.opencagedata.com/geocode/v1/json?q=Delhi&key=30be0c8cc00f46c1b6a80028611ecc8f
+
 
 export default function Maps() {
 

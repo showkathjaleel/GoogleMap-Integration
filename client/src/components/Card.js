@@ -15,17 +15,14 @@ export default function MediaCard({cities}) {
   
   const [place,setPlaces]=useState()
   const [image,setImages]=useState()
-  // const GEOLOCATION_API='1599ab0c7afd4904b1b3a749112c2860'
-  // const UNSPLASH_ACCESS_KEY='rZEOO7C3V7I3ytykMF996bS64vVnLq6mLMQsqimfSBs'
-  // const UNSPLASH_SECRET_KEY='uoeiXUbKFbolO9j5w9F2QtGTYTlRDFmWzTYn01qQMzY'
 
-
-  //give your geolocation api here
+ 
+ // give your geolocation api here
   const GEOLOCATION_API="GEOLOCATION_API"
    //give your unsplash access key  api here
   const UNSPLASH_ACCESS_KEY="UNSPLASH_ACCESS_KEY"
   useEffect(() => { 
-    fetchImages()  
+    fetchImages() 
     fetchPlaces()
    }, [])
 

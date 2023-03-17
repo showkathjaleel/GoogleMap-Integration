@@ -1,36 +1,6 @@
 
 
 
-// import React, { useState, useEffect, useContext } from "react";
-// import { Box, IconButton } from "@mui/material";
-// import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
-// import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
-// import InputBase from "@mui/material/InputBase";
-// import SearchIcon from "@mui/icons-material/Search";
-
-// export default function Header() {
-//   return (
-//     <Box display="flex" justifyContent="space-between">
-//       <Box display="flex" borderRadius="3px">
-//         <InputBase sx={{ml:2 ,flex:1 ,backgroundColor:"blue"}} placeholder="Search"/>
-//         <IconButton type="button" sx={{p:1}}>
-//           <SearchIcon />
-//         </IconButton>
-//       </Box>
-
-//       <Box display="flex">
-//         <IconButton>
-//           <NotificationsOutlinedIcon />
-//         </IconButton>
-//         <IconButton>
-//           <SettingsOutlinedIcon />
-//         </IconButton>
-//       </Box>
-//     </Box>
-//   );
-// }
-
-
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
